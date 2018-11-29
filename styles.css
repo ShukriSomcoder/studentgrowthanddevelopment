@@ -292,7 +292,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-  position:fixed;
+  position:relative;
     left:0;
     bottom:0;
     width:100%;
@@ -309,6 +309,10 @@ footer p {
 .form-group{
     width:auto;
     
+}
+
+.blockquote {
+    background color:teal;
 }
 
  
@@ -330,9 +334,9 @@ footer p {
     
 }
 /* Mobile*/
-@media only screen and (min-width: 380px) and (max-width: 630px){
+@media only screen and (min-width: 380px) and (max-width: 1030px){
   .text, .section-heading,.section-description {
-        font-size:0.5rem;
+        font-size:1.0rem;
     }
     
 }

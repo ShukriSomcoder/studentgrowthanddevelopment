@@ -6,8 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-     <link rel="stylesheet" href="grid.css"> 
-   <link href="https://fonts.googleapis.com/css?family=Mukta" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mukta" rel="stylesheet">
     <script
   src="http://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -19,44 +18,128 @@
     
     
  <body>
+
      <!-- navbar-->
-   <nav class="navbar navbar-expand-lg bg-custom nvbr">
-       <img src="images/logosmall.JPG"  alt="LOGO">
-  <a class="navbar-brand mr-auto" href="#"><b>THE PROJECT</b></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  <div class="container-fluid navbar-header">
+      <nav class="navbar navbar-expand-lg bg-custom nvbr">
+          
+        <!--  navbar brand        -->
+          <a class="navbar-brand" href="index.html"><img class=" img-responsive logo" src="images/logosmall.JPG"   alt="LOGO"></a> <a class="navbar-brand" href="index.html"> <b>THE PROJECT</b> </a>
+      
+          <!-- collapse button  -->          
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+         </button>
+          
+   <!-- Collapsible content     -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html"><b>HOME</b> <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="theproject.html"><b>THE PROJECT</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="followup.html"><b>FOLLOW UP</b></a>
+              </li>
+            </ul>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html"><b>HOME</b> <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="theproject.html"><b>THE PROJECT</b></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="followup.html"><b>FOLLOW UP</b></a>
-      </li>
-    </ul>
-
-  </div>
-</nav>
+          </div>
+      </nav>
+ </div>
+      <!-- /navbar -->
      
+     <!-- jumbotron    -->
+     <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">The Project</h1>
+  </div>
+</div>
      <!-- main image-->
      <section class="gradupic">
      <div class="container">
+         <div class="row center">
+            <blockquote class="blockquote"><p class="h3"> In this study, 14 students took part in a coaching programme, discussing anything from careers to confidence. I interviewed them several times about how they thought they were growing and got some amazing insights about growth at university and growth due to coaching, which you can use in your life to help you grow. </p></blockquote></div>
+     </div>
   <div class="row">
-            <img src="images/gradpic.jpg" class="img-fluid" alt="Responsive image"></div>
+            <img src="images/graduation.jpg" class="img-fluid rounded" alt="Responsive image" >
      </div>        
     </section>
      
      
      <!--/ main image-->
- 
+<!--cards-->
+ <section>
+     <h1 id="speakers" class="display-4 text-center my-5 text-muted">About the Project</h1>
+			<div class="row">
+				<div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top" src="images/context.jpeg" alt="Context">
+            <div class="card-body">
+              <h4 class="card-title">The context</h4>
+              <p class="card-text">This research comes at a time of concern of student mental health. Suicide rates in UK universities have never been higher and there has been a fivefold increase in student disclosure of mental health problems in a decade (BBC). </p>
+            </div>
+          </div>          
+				</div>
+
+				<div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top" src="images/questions.jpeg"  alt="Questions">
+            <div class="card-body">
+              <h4 class="card-title">Questions that research up to this point has not answered:</h4>
+              <p class="card-text"> Is growth just a mindset or a perception that can be cultivated, a perception rather than an actuality? <br> Does it make sense to separate normative from non-normative growth? 
+</p>
+            </div>
+          </div>            
+				</div>
+
+				<div class="col-md-6 col-lg-4">
+			    <div class="card mb-3">
+			      <img class="card-img-top" src="images/impact.jpg" alt="the impact">
+			      <div class="card-body">
+			        <h4 class="card-title">The impact</h4>
+			        <p class="card-text">My research is about an aspect of the human condition, namely growth, and how this is experienced by undergraduates in the context of coaching. I argue that growth can be intentionally stimulated through coaching</p>
+			      </div>
+			    </div>          
+				</div>
+
+				<div class="col-md-6 col-lg-4">
+				  <div class="card mb-3">
+			      <img class="card-img-top" src="images/quotes-from-students.jpg" alt="quotes">
+			      <div class="card-body">
+			        <h4 class="card-title">Quotes from the students who took part in the study</h4>
+			        <p class="card-text">"Coaching has helped me quite a lot.  If I didn’t do the coaching I’d not be doing as well as I am now.  Especially with certain areas like procrastination.  I’d be a wreck actually."</p>
+			      </div>
+			    </div>          
+				</div>
+
+				<div class="col-md-6 col-lg-4">
+			    <div class="card mb-3">
+			      <img class="card-img-top" src="images/bbkpsych.jpg" alt="Study Psychology at Birkbeck">
+			      <div class="card-body">
+			        <h4 class="card-title">Study Psychology at Birkbeck</h4>
+			        <p class="card-text">If you are interested in studying Psychology at any level at Birkbeck, look at the Department of Psychology’s’ website <a href=http://www.bbk.ac.uk/departments/psychology>  <br>Click here for more information</a></p>
+			      </div>
+			    </div>          
+				</div>
+
+				<div class="col-md-6 col-lg-4">
+			    <div class="card">
+			      <img class="card-img-top" src="images/bbktalent.JPG" alt="bbk talent">
+			      <div class="card-body">
+			        <h4 class="card-title">Start your self development journey</h4>
+			        <p class="card-text">Join Birkbecks recruitment agency with help and support from experts to help you grow in your career. <a href=https://www.youtube.com/watch?v=Rz6q0z0j1Bs&feature=youtu.be> <br>Click here for more information </a>
+			      </div>
+			    </div>          
+				</div>
+			</div><!-- /speakers -->
+      
+   </section>  
+<!-- /cards columns    -->
+     
+     <!--form--->
      <section class="formlayout">
-    <!--form--->
-         
+   
      <form>
   <div class="form-group">
       <h2> Sign up </h2>
